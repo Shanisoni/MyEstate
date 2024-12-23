@@ -24,7 +24,7 @@ function Navbar() {
                         <Link to="/profile">
                             <img src="Profilephoto.jpg" alt="" />
                         </Link>
-                        <span>Nishchal Sachan</span>
+                        <span>Shani Soni</span>
                         <Link to="/profile" className="profile">
                             <div className="notification">3</div>
                             <span>Profile</span>

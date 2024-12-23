@@ -1,7 +1,6 @@
 import "./chat.scss"
 import React, { useState } from 'react';
 
-
 function Chat() {
     const [chat, setChat] = useState(true);
     return (
@@ -10,31 +9,31 @@ function Chat() {
                 <h1>Messages</h1>
                 <div className="message" onClick={() => setChat(true)}>
                     <img src="Profilephoto.jpg" alt="" />
-                    <span>Nishchal Sachan</span>
+                    <span>Shani Soni</span>
                     <p>Lorem ipsum dolor sit amet...</p>
                 </div>
 
                 <div className="message" onClick={() => setChat(true)}>
                     <img src="Profilephoto.jpg" alt="" />
-                    <span>Nishchal Sachan</span>
+                    <span>Shani Soni</span>
                     <p>Lorem ipsum dolor sit amet...</p>
                 </div>
 
                 <div className="message" onClick={() => setChat(true)}>
                     <img src="Profilephoto.jpg" alt="" />
-                    <span>Nishchal Sachan</span>
+                    <span>Shani Soni</span>
                     <p>Lorem ipsum dolor sit amet...</p>
                 </div>
 
                 <div className="message" onClick={() => setChat(true)}>
                     <img src="Profilephoto.jpg" alt="" />
-                    <span>Nishchal Sachan</span>
+                    <span>Shani Soni</span>
                     <p>Lorem ipsum dolor sit amet...</p>
                 </div>
 
                 <div className="message" onClick={() => setChat(true)}>
                     <img src="Profilephoto.jpg" alt="" />
-                    <span>Nishchal Sachan</span>
+                    <span>Shani Soni</span>
                     <p>Lorem ipsum dolor sit amet...</p>
                 </div>
             </div>
@@ -43,7 +42,7 @@ function Chat() {
                     <div className="top">
                         <div className="user">
                             <img src="Profilephoto.jpg" alt="" />
-                            <span>Nishchal Sachan</span>
+                            <span>Shani Soni</span>
                         </div>
                         <span className="close" onClick={() => setChat(null)}>X</span>
                     </div>
