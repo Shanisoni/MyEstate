@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import SearchBar from "../../components/searchBar/searchBar";
+
 import "./homePage.scss";
 
 function HomePage() {
